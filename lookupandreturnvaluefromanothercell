@@ -1,0 +1,7 @@
+Use this excel formula to search a row value in another column and retrun the data back from the any of the corresponding columns.
+
+=INDEX($K$2:$K$183,MATCH(A1,$F$2:$F$183,0))
+
+A1 - Value that you want to search
+$F$2:$F$183 - Column in which you want to search A1 value
+$K$2:$K$183 - Column from which you want to return the correspoding value
