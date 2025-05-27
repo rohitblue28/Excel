@@ -1,0 +1,6 @@
+Check if a value exists in another column
+
+=IF(ISERROR(VLOOKUP(A4,$C$4:$C$14, 1, FALSE)),"Not Exist","Exist" )
+
+A4 - Value to check for
+$C$4:$C$14 - Column in which A4 value needs to be checked
